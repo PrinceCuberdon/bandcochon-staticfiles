@@ -1,0 +1,282 @@
+#rightcontent {
+    float:none;
+    width: 100%;
+}
+#account-toolbar {
+    width: 110px;
+    float: left;
+}
+#account-container {
+    margin-left: 150px;
+}
+#motd, #messages, #pending-container {
+    margin-left: 30px;
+}
+#motd {
+    font-size: 130%;
+    font-style: italic;
+}
+#messages table, #account-messages table {
+    width: 900px;
+    border: 1px solid #ff77e8;
+    border-radius: 5px;
+}
+#messages table thead, #account-messages table thead {
+    background: transparent url('/staticfiles/images/diagonal.png');
+}
+#messages table thead th, #account-messages table thead th {
+    text-align: left;
+}
+#messages table tr.row1, #account-messages table tr.row1 {
+    background-color: white;
+}
+#messages table tr.row2, #account-messages table tr.row2 {
+    background-color: lightgrey;
+}
+#messages table th, #messages table td, #account-messages table th, #account-messages table td {
+    padding: 3px;
+}
+#messages table th.date, #account-messages table th.date {
+    width: 200px;
+}
+#messages table th.from, #account-messages table th.from {
+    width: 200px;
+}
+#messages table th.title, #account-messages table th.title {
+    width: 500px;
+}
+#account-messages table .unread {
+    font-weight: bold;
+}
+#messages tr.row, #account-messages tr.row {
+    cursor: pointer;
+}
+#message-container .title {
+    
+}
+#message-container .body, #message-container .title {
+    font-size: 130%;
+    padding: 5px;
+    border: 1px solid #E09A13;
+    background-image: url('/staticfiles/images/diagonal.png');
+    border-radius: 4px;
+}
+#account-container label {
+    display: block;
+    float: left;
+    width: 150px;
+    padding-top: 5px;
+}
+#account-container label.no-float {
+    float: none;
+    display: inline;
+}
+#account-container div.row  {
+    margin-top: 5px;
+}
+#account-container .avatar-choice {
+    margin: 0 auto;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    border:2px solid transparent;
+}
+#account-container .avatar-selected {
+    border:2px solid green;    
+}
+#account-container div.forcheckbox label {
+    float: none;
+    width: 100%;
+    display: inline;
+}
+#account-container div.forcheckbox input {
+    margin-left: 150px;
+}
+#account-container button img {
+    vertical-align: middle;
+    padding: 0 5px 3px 0;
+}
+#account-add .wizard {
+    display: none;
+    opacity: 0;
+}
+
+#account-add  .account-picture-thumb {
+    margin-right: 10px;
+}
+
+#account-add #map {
+    margin: 0 auto;
+    width: 650px;
+    height: 500px;
+}
+
+#account-add .information.message-ok {
+    background-color: #83d983;
+}
+#account-add .information.message-error {
+    background-color: #e7b0b0;
+}
+#account-add #missing-geoloc {
+    display: none;
+}
+#account-add .field-error {
+    background-color: #e7b0b0;
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+    border-radius: 4px;
+}
+#handy-geoloc-fields { display: none; text-align: center; padding: 5px; border: 1px solid #E09A13; border-radius: 4px;background-image: url(/staticfiles/images/diagonal.png); margin-top: -1px; }
+.autocomplete-w1 { position:absolute; top:0px; left:0px; margin:6px 0 0 6px;  }
+.autocomplete { width: 300px; border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px;  }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; overflow:hidden; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+.actions-menu-btn, .county-actions-menu-btn {
+    position: absolute;
+    margin: -35px 0 0 114px;
+}
+button.active {
+    background-color: #ff77e8;
+}
+.actions-menu, .county-actions-menu {
+    z-index: 999;
+    display: none;
+    position:absolute;
+    width: 200px;
+    background-color: #FF77E8;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 0 0 4px 4px;
+    padding: 5px;
+}
+.actions-menu div, .county-actions-menu div {
+    padding: 5px;
+    cursor:pointer;
+    border-bottom: 1px insert black;
+    border-radius: 5px;
+}
+.actions-menu div:hover , .county-actions-menu div:hover {
+    background-color: white;
+}
+.pigsty-block {
+    margin-right: 10px;
+    width: 170px;
+    height: 170px;
+}
+img.show-info {
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #000;
+    border:2px solid transparent;
+    cursor:pointer;
+}
+.cleaned img.show-info {
+    border: 2px solid #0F0;
+}
+.pending img.show-info {
+    border: 2px solid #ffff00;
+}
+.rejected img.show-info {
+    border: 2px solid #FF0000;
+}
+#modif_map {
+    width: 500px;
+    height: 500px;
+}
+.button-icon {
+    background: url(/staticfiles/images/sprites.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+}
+.account-button-icon .button-icon.button-profile { background-position: -247px -216px; }
+.account-button-icon .button-icon.button-photo { background-position: -311px -216px; }
+.account-button-icon .button-icon.button-mail { background-position: -375px -216px; }
+.account-button-icon .button-icon.button-home { background-position: -439px -216px; }
+.account-button-icon .button-icon.button-county { background-position: -246px -295px; }
+.account-button-icon .button-icon.button-teacher { background-position: -310px -295px; }
+.action-icon { background-position: -247px -177px; width: 21px; height:16px;}
+.no-avatar-icon  { background-position: -516px -80px;}
+
+#salete-list-table td {
+    vertical-align: top;
+    padding: 5px;
+}
+#salete-list-table th.town {
+    width: 13%;
+}
+#message-panel {
+    font-size: 14px;
+    padding:5px;
+    font-weight: bold;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 30px;
+    background: url(/staticfiles/images/obscure.png);
+}
+#message-panel .sync {
+    color: white;
+}
+#message-panel .err {
+    color: red;
+}
+#message-panel .success {
+    color: #0F0;
+}
+
+#message-panel img  {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+#account-saletes #legend {
+    margin-bottom: 10px;
+}
+
+#account-saletes #legend span.pending, #account-saletes #legend span.nothing, #account-saletes #legend span.rejected {
+    margin-left: 10px;
+    display: inline-block;
+    width: 30px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+#account-saletes #legend .pending {
+    background: yellow;
+}
+#account-saletes #legend .nothing {
+}
+#account-saletes #legend .rejected {
+    background: red;
+}
+
+#account-teacher td.teacher-group {
+    width: 400px;
+}
+#account-teacher td.teacher-code {
+    width: 150px;
+}
+#account-teacher td.teacher-actions {
+    width: 310px;
+    text-align: right;
+}
+#account-teacher table#teacher-students-list td.name  {
+    width: 250px;
+}
+#account-teacher table#teacher-students-list td {
+    padding: 5px;
+    vertical-align: top;
+}
+div.edit-block {
+	margin-left: 50px;
+}
+div.edit-block label {
+	display: inline-block;
+	width: 150px;
+	
+}
