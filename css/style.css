@@ -39,7 +39,7 @@ a {
     text-shadow: 1px 1px 0 rgba(255,255,255,0.7);
     text-decoration: none;
 }
-a[href^=http] { color: blue; }
+a[href^=http] { color: blue; text-shadow: none; }
 a.link { color: blue; }
 img { border: 0; }
 img[href$=wait.gif] {
@@ -207,9 +207,9 @@ span.cuberdon   { background-position: -197px -393px; width: 11px; height: 16px;
 .large { font-size: 130%; line-height: 2em; }
 .big { font-size: 130%; }
 a.button {
-    display:block;
     height: 100%;
     margin-right: 5px;
+    display: inline-block;
 }
 .button, a.button {
     text-align: center;
@@ -598,6 +598,7 @@ section#map #mainmap, #photomap, #maptown {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
+    background: transparent url(/staticfiles/images/loadingmap.jpg) no-repeat 0 0;
 }
 #end-porch {
     position: absolute;
@@ -885,4 +886,29 @@ url.errorlist {
     background: transparent url(/staticfiles/images/obscure.png);
     color: white;
     margin-bottom: 10px;
+}
+#message-panel {
+    font-size: 14px;
+    padding:5px;
+    font-weight: bold;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 30px;
+    background: url(/staticfiles/images/obscure.png);
+}
+#message-panel .sync {
+    color: white;
+}
+#message-panel .err {
+    color: red;
+}
+#message-panel .success {
+    color: #0F0;
+}
+
+#message-panel img  {
+    vertical-align: middle;
+    padding-right: 10px;
 }
