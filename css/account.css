@@ -255,3 +255,12 @@ div.edit-block label {
 	width: 150px;
 	
 }
+span.dropdown {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('/staticfiles/images/sprites.png');
+    background-position: -576px -160px;
+    margin-left: -25px;
+    margin-right: 10px;    
+}
