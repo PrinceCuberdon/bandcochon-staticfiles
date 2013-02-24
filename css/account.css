@@ -264,3 +264,8 @@ span.dropdown {
     margin-left: -25px;
     margin-right: 10px;    
 }
+.errormessage {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
