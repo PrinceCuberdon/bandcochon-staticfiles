@@ -52,7 +52,7 @@
     cursor: pointer;
 }
 #message-container .title {
-    
+
 }
 #message-container .body, #message-container .title {
     font-size: 130%;
@@ -62,9 +62,8 @@
     border-radius: 4px;
 }
 #account-container label {
-    display: block;
-    float: left;
-    width: 150px;
+    display: inline-block;
+    width: 215px;
     padding-top: 5px;
 }
 #account-container label.no-float {
@@ -85,7 +84,7 @@
     border:2px solid transparent;
 }
 #account-container .avatar-selected {
-    border:2px solid green;    
+    border:2px solid green;
 }
 #account-container div.forcheckbox label {
     float: none;
@@ -209,6 +208,7 @@ img.show-info {
 #salete-list-table th.town {
     width: 13%;
 }
+#salete-list-table img { max-width: 150px; }
 #account-saletes #legend {
     margin-bottom: 10px;
 }
@@ -253,7 +253,7 @@ div.edit-block {
 div.edit-block label {
 	display: inline-block;
 	width: 150px;
-	
+
 }
 span.dropdown {
     display: inline-block;
@@ -262,7 +262,7 @@ span.dropdown {
     background-image: url('/staticfiles/images/sprites.png');
     background-position: -576px -160px;
     margin-left: -25px;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 .errormessage {
     color: red;
