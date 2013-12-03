@@ -52,7 +52,7 @@
     cursor: pointer;
 }
 #message-container .title {
-    
+
 }
 #message-container .body, #message-container .title {
     font-size: 130%;
@@ -85,7 +85,7 @@
     border:2px solid transparent;
 }
 #account-container .avatar-selected {
-    border:2px solid green;    
+    border:2px solid green;
 }
 #account-container div.forcheckbox label {
     float: none;
@@ -253,7 +253,7 @@ div.edit-block {
 div.edit-block label {
 	display: inline-block;
 	width: 150px;
-	
+
 }
 span.dropdown {
     display: inline-block;
@@ -262,10 +262,11 @@ span.dropdown {
     background-image: url('/staticfiles/images/sprites.png');
     background-position: -576px -160px;
     margin-left: -25px;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 .errormessage {
     color: red;
     font-weight: bold;
     text-align: center;
 }
+
