@@ -112,10 +112,9 @@ h1, h2, h3 { font-family: chalk; }
 .avatar-selected { border: 2px solid yellow;}
 .pigsty-block { margin-right: 15px; padding: 10px;}
 .cleaned { background-color: #00b100; }
-#pictures
 #pictures a.fancyme, .pigsty a.fancyme { min-height: 230px; display: block; margin-top: 5px; }
-#pictures .thumbnail .image-container { height: 165px;  text-align: center; margin: 0 auto; }
-#pictures .thumbnail .image-container img { max-height: 165px;}
+.thumbnail .image-container { height: 165px;  text-align: center; margin: 0 auto; }
+.thumbnail .image-container img { max-height: 165px;}
 #book { clear: both; }
 .thumbnail.pigsty { border: 1px solid #FF77E8; }
 .highlight-search { background-color: yellow; }
