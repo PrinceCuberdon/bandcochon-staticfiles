@@ -113,7 +113,7 @@ h1, h2, h3 { font-family: chalk; }
 .pigsty-block { margin-right: 15px; padding: 10px;}
 .cleaned { background-color: #00b100; }
 #pictures
-#pictures a.fancyme, .pigsty a.fancyme { min-height: 150px; display: block; margin-top: 5px; }
+#pictures a.fancyme, .pigsty a.fancyme { min-height: 230px; display: block; margin-top: 5px; }
 #pictures .thumbnail .image-container { height: 165px;  text-align: center; margin: 0 auto; }
 #pictures .thumbnail .image-container img { max-height: 165px;}
 #book { clear: both; }
@@ -226,7 +226,7 @@ span.largecomment-icon {
     height: 22px;
 }
 #socialnetworks-badge {
-    background-position: -386px -295px;
+    background-position: -386px -286px;
     width: 85px;
     height: 62px;
 }
