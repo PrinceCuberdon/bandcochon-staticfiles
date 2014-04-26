@@ -371,6 +371,9 @@ span.bcbook-icon {
     height: 100%;
 }
 
+/** Image pour mon-compte */
+#show-picture-info img.thumbnail { max-width: 100%; }
+
 /* Desktop */
 @media (min-width: 1981px) {
     body  {    background: transparent url(../images/fond-xxl.jpg) no-repeat center center fixed; }
