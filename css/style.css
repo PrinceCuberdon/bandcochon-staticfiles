@@ -55,7 +55,11 @@ h4.bc-panel-title { font-family: chalk; }
 .bc-show { display: inline-block; }
 .bc-icon-rotate, .bc-rotate { -webkit-animation: SpinIt 1s infinite linear;-moz-animation: SpinIt 1s infinite linear;-ms-animation: SpinIt 1s infinite linear;-o-animation: SpinIt 1s infinite linear;animation: SpinIt 1s infinite linear;
 }
+
+/** Wall picture are aligned to center */
+a.fancyme { text-align: center; width: 100%; display: inline-block;}
 .book-image { max-width: 85%; margin: 0 auto; }
+
 .bc-account-btn { font-size: 18px; height: 100px; width: 125px; color:#888;  }
 .bc-account-btn i { font-size: 32px; }
 .bc-cursor-pointer { cursor: pointer;}
@@ -71,6 +75,7 @@ h4.bc-panel-title { font-family: chalk; }
 .bc-inline { display: inline-block; }
 .bc-margin-less { margin: 0; }
 .bc-panel-box .media { border: 0; }
+
 /* Fonts */
 @font-face {
 	font-family: 'TopSecret';
@@ -87,6 +92,7 @@ h4.bc-panel-title { font-family: chalk; }
     font-family: desyrel;
     src: url('/staticfiles/fonts/MyLuckyPenny.ttf');
 }
+
 /* Specific */
 #logo-header {
     height: 250px;
@@ -346,6 +352,25 @@ span.bcbook-icon {
 .tiny-avatar { max-width: 20px; vertical-align: middle; }
 
 #sharethis { height: 48px; }
+
+/** Make the video responsive */
+.videocontainer {
+    position:relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow:hidden;
+}
+.videocontainer iframe,
+.videocontainer object,
+.videocontainer embed {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
 /* Desktop */
 @media (min-width: 1981px) {
     body  {    background: transparent url(../images/fond-xxl.jpg) no-repeat center center fixed; }
