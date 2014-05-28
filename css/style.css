@@ -145,7 +145,7 @@ table.messages tr { cursor: pointer; }
 #book .media-top-header {
     background: #FFA7F0;
 }
-
+#image-block article a.fancyme img { margin: 0 auto; }
 .media,
 .media-body {
   overflow: visible;
@@ -372,7 +372,7 @@ span.bcbook-icon {
 }
 
 /** Image pour mon-compte */
-#show-picture-info img.thumbnail { max-width: 100%; }
+#show-picture-info img.thumbnail, #edit-picture-info img.thumbnail { max-width: 100%; }
 
 /* Desktop */
 @media (min-width: 1981px) {
