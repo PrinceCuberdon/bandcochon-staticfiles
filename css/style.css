@@ -381,7 +381,7 @@ span.bcbook-icon {
 @media (min-width: 1200px) {
     body  {    background: transparent url(../images/fond.jpg) no-repeat center 0 fixed; }
     #main { width: 1200px; margin: 0 auto; }
-    #mainmap, #photomap, #maptown,#modif_map { height: 500px; }
+    #mainmap, #photomap, #maptown, #modif_map, #editmap { height: 500px; }
     /* Ribbon effect */
     .ribbon { margin-left: -21px;  margin-right: -21px; }
     .ribbon:before {
