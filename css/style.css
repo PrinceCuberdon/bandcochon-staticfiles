@@ -101,6 +101,7 @@ a.fancyme { text-align: center; width: 100%; display: inline-block;}
     background-position: -630px -66px;
 }
 h1, h2, h3 { font-family: chalk; }
+h1.homemessage { color:black; font-family: sans-serif; font-size:200%; }
 .chalk { font-family: chalk; }
 .large-button { display: block; min-height: 120px; }
 .large-button i { display: inline-block; min-height: 46px;}
