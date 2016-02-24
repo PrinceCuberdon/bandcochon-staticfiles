@@ -958,7 +958,7 @@ span.bcbook-icon {
         width: 100%;
     }
 
-    #mainmap, #photomap, #maptown {
+    #mainmap, #photomap, #maptown, #modif_map, #editmap {
         height: 400px;
     }
 
@@ -973,7 +973,7 @@ span.bcbook-icon {
         width: 100%;
     }
 
-    #mainmap, #photomap, #maptown {
+    #mainmap, #photomap, #maptown, #modif_map, #editmap {
         height: 250px;
     }
 
