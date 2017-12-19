@@ -904,12 +904,20 @@ span.bcbook-icon {
 @media (min-width: 1981px) {
     body {
         background: transparent url(../images/fond-xxl.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 
 @media (min-width: 1200px) {
     body {
         background: transparent url(../images/fond.jpg) no-repeat center 0 fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     #main {
