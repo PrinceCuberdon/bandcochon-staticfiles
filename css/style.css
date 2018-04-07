@@ -192,7 +192,7 @@ a.fancyme {
 }
 
 .book-image {
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -327,8 +327,8 @@ h1.homemessage {
     max-width: 24%;
 }
 
-#last-comments .book-image {
-    max-width: 220px;
+#last-comments .book-image, #last-comments img {
+    max-width: 100%;
 }
 
 #footer {
